@@ -14,6 +14,12 @@ print(covid_df.***)
 
 covid_df.***()
 
+#
+# Which column names have missing values?
+# ***
+#
+#
+
 covid_df.***(inplace=True)
 covid_df.***()
 
@@ -21,7 +27,7 @@ stats = covid_df.***()
 
 cor = covid_df.***()
 
-above_10_deaths = covid_df[covid_df['covid_deaths'] > 10].head(10)
+above_10_deaths = covid_df[covid_df['***'] > ***].head(10)
 
 covid_df.plot(kind='scatter',x ='***', y='***', title="Cases by County Population") 
 
