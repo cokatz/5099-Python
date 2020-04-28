@@ -11,15 +11,15 @@ Created on Mon Apr 27 08:38:37 2020
 5. Run the file after uncommenting lines  34-35 (Insulin_zero_mean) 
 6. Note the accuracy value for run 1.  You will report this value in the assignment on Sakai
 7. Comment lines 34-35 and uncomment lines 40-41 (Insulin_nonzero_mean). Rerun the file.
-8. Note the accuracy value for run 1.  You will report this value in the assignment on Sakai
-9. What is your opinion on why the accuarcy changed in the model, which way did it change?  record in Sakai
+8. Note the accuracy value for run 2.  You will report this value in the assignment on Sakai
+9. What is your opinion on why the accuracy changed in the models, 
+   which model changed, which way did it change?  in the assignment on Sakai
 
 """
 import pandas as pd
 import numpy as np
 
 from sklearn.linear_model import LogisticRegression
-
 
 # Read and load diabetes.csv from my github site
 url = 'https://raw.githubusercontent.com/chipshaw/5099-Python/master/Notebooks/assets/diabetes.csv'
