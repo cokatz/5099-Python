@@ -59,24 +59,12 @@ def diag_win(board, player):
     return np.all(diag1 == player) or np.all(diag2 == player)
 
 def find_winner(board, player, players):
-    no_move =[-1,-1]
-    moves = possibilities(board)
-    for move in moves:
-        test_board=board.copy()
-        test_board[move[0],move[1]] = player
-        # now set winning_move to evaluate(test_board,players)
-        winning_move = evaluate(test_board,players)
-        # if winner return move
-        if winning_move > 0:
-            return move
-    return no_move
+    # if loop - test_board = board.copy()
+    return
 
 def find_block(board, player, players):
-    if player == 1:
-        player = 2
-    else:
-        player = 1
-    return find_winner(board, player,players)
+    
+    return
 
 def evaluate(board, players):
     winner = 0
@@ -156,7 +144,7 @@ def play_game(group,arr):
         for player in players:
             if group == 1:
                 random_place(board, player)
-            elif group == 2:   # had if group == 2:
+            if group == 2:
                 if player == 1:
                     random_place(board, player)
                 else:
@@ -193,7 +181,7 @@ def play_game(group,arr):
                 arr[2] += 1
 #                print("It's a draw!")
                 break
-            
+            print()
     return winner
 
 def main():

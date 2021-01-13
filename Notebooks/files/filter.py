@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Created on Fri Dec  7 15:18:46 2018
 
+@author: jlopes
+"""
 
 # define filter function
 def filter(oldfile, newfile):
